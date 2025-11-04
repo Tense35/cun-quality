@@ -23,7 +23,7 @@ export function VideoSection() {
           <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
             <iframe
               className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/9ao4FEaDGhQ?list=RD9ao4FEaDGhQ&autoplay=0"
+              src="https://www.youtube.com/watch?v=WKJyf-rgLNk"
               title="Video Explicativo"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
@@ -41,9 +41,7 @@ export function VideoSection() {
                 Guía Visual Completa
               </h4>
               <p className="text-gray-600 leading-relaxed">
-                Este video te llevará a través de todas las secciones de nuestra plataforma,
-                explicando los modelos de calidad de software, normas ISO/IEC, y cómo aplicar
-                estos conocimientos en tus proyectos reales.
+                Este video explicará un poco a cerca de lo que es la calidad del software y su importancia en el desarrollo de software.
               </p>
             </div>
           </div>
