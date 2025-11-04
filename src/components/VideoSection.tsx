@@ -21,13 +21,16 @@ export function VideoSection() {
 
         <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl bg-gray-900">
           <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-            <iframe
-              className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/watch?v=WKJyf-rgLNk"
-              title="Video Explicativo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            />
+            <iframe 
+              width="1860" 
+              height="756" 
+              src="https://www.youtube.com/embed/WKJyf-rgLNk" 
+              title="Calidad de Software"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen>
+            </iframe>
           </div>
         </div>
 
